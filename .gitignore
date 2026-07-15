@@ -1,0 +1,11 @@
+# Ignore large model weights and assets
+kokoro_assets/
+
+# Ignore intermediate check audios and checkpoints
+starter/listen_pert_*.wav
+starter/voice_checkpoint.pt
+
+# Python caching
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
